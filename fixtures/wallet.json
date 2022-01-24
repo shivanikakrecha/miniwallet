@@ -1,0 +1,15 @@
+[
+{
+    "model": "wallet.wallet",
+    "pk": "9ce30c83-2049-4765-a76f-9a5d8f3cf240",
+    "fields": {
+        "created_at": "2022-01-05T19:26:23.827Z",
+        "updated_at": "2022-01-06T08:58:57.732Z",
+        "owned_by": 1,
+        "balance": "90.00",
+        "status": "enable",
+        "enabled_at": "2022-01-06T08:58:57.732Z",
+        "disabled_at": "2022-01-06T08:58:57.732Z"
+    }
+}
+]

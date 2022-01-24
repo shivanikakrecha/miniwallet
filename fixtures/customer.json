@@ -1,0 +1,32 @@
+[
+{
+    "model": "customer.customer",
+    "pk": 1,
+    "fields": {
+        "created_at": "2022-01-05T17:09:50.954Z",
+        "updated_at": "2022-01-06T06:22:10.610Z",
+        "user": 1,
+        "customer_id": "5623cf41-92aa-430b-82cd-b1625e5da55a",
+        "account_name": "Shivani Kakrecha",
+        "account_number": "1234564365787689",
+        "customer_address": "San Francisco, b - 10",
+        "mobile_number": "+918963251407",
+        "gender": "F"
+    }
+},
+{
+    "model": "customer.customer",
+    "pk": 2,
+    "fields": {
+        "created_at": "2022-01-06T06:24:09.387Z",
+        "updated_at": "2022-01-06T06:24:09.387Z",
+        "user": 2,
+        "customer_id": "2191beba-c886-440e-97e2-6b6fb8f22b1d",
+        "account_name": "Yan Vyong",
+        "account_number": "526398741205",
+        "customer_address": "A-20, Nr, west corian garden",
+        "mobile_number": "+918963251407",
+        "gender": "M"
+    }
+}
+]
