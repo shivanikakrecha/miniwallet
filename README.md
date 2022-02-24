@@ -3,7 +3,9 @@
 Wallet Service implemented with Python/ Django/ REST.
 It exposes API's for :
 
-###### **Get Wallet Balance**
+###### **Key Points**
+
+Get Wallet Balance
 
 Deposit to wallet
 
@@ -17,7 +19,7 @@ List all transaction history (Paginated) (Future Use).
 
 For now, creation of wallet is handled through admin.
 
-**Requirements:**
+###### **Requirements:**
 Python==3.8.9
 
 asgiref==3.4.1
@@ -39,11 +41,14 @@ sqlparse==0.4.2
 
 Uses Postgresql database. Can be extended easily to use any database.
 
-Steps to run server:
-**pip install -r requirements.txt
+###### **Steps to run server:**
+Step 1:- Create a virtual environment using below command
+        `pip install -r requirements.txt`
 
-python manage.py migrate
+Step 2:- Run this command to migrate all tables into the database.
+        `python manage.py migrate`
 
-python manage.py runserver
+Step 3:- Run this command to run setup 
+         `python manage.py runserver`
 
 Server would be available at http://127.0.0.1:8000/**
